@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnpm-store/
+# Builds
+dist/
+client/dist/
+server/dist/
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+# Env / Misc
+.env
+.env.*

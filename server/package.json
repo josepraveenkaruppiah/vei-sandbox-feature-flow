@@ -1,0 +1,24 @@
+{
+  "name": "vei-sandbox-server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "echo \"No build step for server\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "prettier": "^3.3.3",
+    "husky": "^9.0.11"
+  }
+}
